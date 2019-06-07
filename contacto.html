@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head lang="en-MX">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Contacto | Amin Wejebe Shanahan</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <div id="loading"></div>
+    <div class="wrapper">
+      <div class="main">
+
+        <section class="split-home">
+
+          <section class="left-section left-contacto wow fadeIn" data-wow-delay="2.1s">
+            <a class="nav-link" href="bio.html">Acerca de Mi</a>
+          </section>
+
+          <section class="right-section-white">
+            <a href="index.html" class="logo logo-dark">
+              <h1>AMIN WEJEBE SHANAHAN</h1>
+            </a>
+            <div class="col-md-12">
+              <div class="contacto">
+                <h1 class="wow fadeInDown" data-wow-delay=".1s">Escríbreme</h1>
+                <p class="wow fadeInDown" data-wow-delay=".2s">Si quieres hablar conmigo, por favor, mándame un mensajito por este medio, me gustaría escuchar de ti o trabajar juntos.
+                </p>
+              <div class="contacto-form">
+                 <form id="contacto-form" method="post" action="assets/php/contacto.php" role="form">
+                   <div class="messages"></div>
+                   <div class="controls">
+                   <div class="row">
+                       <div class="col-md-6">
+                           <div class="form-group">
+                               <label for="form_name">Nombre *</label>
+                               <input id="form_name" type="text" name="name" class="form-control"
+                                 placeholder="Tu nombre *" required="required"
+                                 data-error="El nombre es un campo requerido.">
+                               <div class="help-block with-errors"></div>
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="form-group">
+                               <label for="form_lastname">Apellido *</label>
+                               <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Tu apellido*" required="required" data-error="El apellido es un campo requerido.">
+                               <div class="help-block with-errors"></div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-6">
+                           <div class="form-group">
+                               <label for="form_email">E-mail *</label>
+                               <input id="form_email" type="email" name="email" class="form-control" placeholder="Tu correo *" required="required" data-error="por favor escribe un correo valido.">
+                               <div class="help-block with-errors"></div>
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <div class="form-group">
+                               <label for="form_phone">Teléfono</label>
+                               <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Tu teléfono">
+                               <div class="help-block with-errors"></div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-md-12">
+                           <div class="form-group">
+                               <label for="form_message">Mensaje *</label>
+                               <textarea id="form_message" name="message" class="form-control" placeholder="Tu mensaje*" rows="4" required="required" data-error="No escribiste nada :()."></textarea>
+                               <div class="help-block with-errors"></div>
+                           </div>
+                       </div>
+                       <div class="col-md-12">
+                          
+                           <input type="submit" value="Enviar" class="btn-contacto btn btn-success btn-send wow fadeIn"
+                           data-wow-delay=".2s">
+                       </div>
+                     </div>
+                   </div>
+                 </form>
+               </div><!-- contacto Form -->
+             </div>
+            </div>
+            <div class="col-md-12">
+              <div class="footer-personal footer-dark">
+                <ul>
+                  <li><a href="bio.html">Acerca de mi</a></li>
+                  <li><a href="portafolio.html">Portafolio</a></li>
+                  <li><a href="contacto.html">contacto</a></li>
+                </ul>
+              <br>
+             
+            </div>
+          </div>
+         </section>
+
+        </section>
+
+      </div><!-- Main -->
+    </div><!--Wrapper -->
+    <!-- JS Scripts -->
+    <script src="assets/js/jquery-2.1.1.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/contacto.js"></script>
+    <script src="assets/js/validator.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- JS Scripts -->
+  </body>
+</html>
