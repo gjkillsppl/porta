@@ -751,6 +751,10 @@ h6.subtitulo {
 	padding: 50px 0 50px 0;
 }
 
+.project-img img {
+	max-width: 100%;
+}
+
 .project-details p {
 	font-family: 'Archer-Mediumr';
 	font-size: 18px;
