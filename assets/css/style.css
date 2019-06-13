@@ -1456,3 +1456,11 @@ span.text {}
 
 
 /*  */
+
+
+.origin-overlay-items {
+	top: 50%;
+	left: 50%;
+	margin: -75px 0 0 -90px;
+	right: unset;
+}
